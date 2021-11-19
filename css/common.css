@@ -20,3 +20,7 @@ body {
   color: #333333;
   font-family: 'Nanum Gothic', sans-serif;
 }
+
+.weight-900 {
+  font-weight: 900;
+}
