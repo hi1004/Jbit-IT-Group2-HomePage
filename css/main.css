@@ -1,0 +1,51 @@
+.main-background {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #a3b5c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-background .main-container {
+  width: 600px;
+  text-align: center;
+}
+.main-background .main-container .logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  display: block;
+  color: #213a5c;
+  font-weight: 700;
+  text-align: center;
+  background-color: #fff;
+  font-size: 4em;
+}
+.main-background .main-container .title {
+  padding: 20px 0;
+  letter-spacing: 8px;
+  font-size: 2em;
+}
+.main-background .main-container p {
+  /* 내용 길이에 맞춰서 폰트수정 */
+}
+
+.main-background .main-container .btn-group {
+  width: 400px;
+  height: 100px;
+  margin: 20px auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-background .main-container .btn-group .btn {
+  display: block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background-color: #213a5c;
+  color: #fff;
+  border-radius: 50%;
+}
