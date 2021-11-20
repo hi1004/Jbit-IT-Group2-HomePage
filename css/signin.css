@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ccc;
+  background: linear-gradient(#a3b5c0 35%, #dad5cf);
 }
 
 .signin-container {
