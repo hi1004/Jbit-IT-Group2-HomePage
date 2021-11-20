@@ -4,12 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2조 로그인</title>
+    <title>Login</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
 
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/signin.css" />
+    <link rel="stylesheet" href="../css/register.css" />
+
+    <script src="../js/register.js" defer></script>
   </head>
   <body>
-    <a href="/">홈페이지 이동</a>
+    <div class="signin-wrap">
+      <div class="signin-container">
+        <div class="card"></div>
+        <div class="card">
+          <form>
+            <h2 class="form-title">LOGIN</h2>
+            <ul class="form-menu">
+              <li>
+                <input type="text" id="user-name" required autofocus autocomplete="off" data-ms-editor="true" />
+                <label for="user-name">Username</label>
+                <div class="bar"></div>
+              </li>
+              <li>
+                <input type="password" id="user-password" required />
+                <label for="user-password">Password</label>
+                <div class="bar"></div>
+              </li>
+            </ul>
+            <div class="btn-container">
+              <button type="submit" class="btn"><span>GO</span></button>
+            </div>
+
+            <a href="javascript:void(0)" class="forgot-password">Forgot Your Password</a>
+          </form>
+        </div>
+        <div class="card register">
+          <div class="toggle"></div>
+          <h1 class="title">
+            Register
+            <div class="close"></div>
+          </h1>
+          <form>
+            <div class="register-container">
+              <ul class="form-menu">
+                <li>
+                  <input type="text" id="user-name" required autofocus autocomplete="off" data-ms-editor="true" />
+                  <label for="user-name">Username</label>
+                  <div class="bar"></div>
+                </li>
+                <li>
+                  <input type="password" id="user-password" required />
+                  <label for="user-password">Password</label>
+                  <div class="bar"></div>
+                </li>
+                <li>
+                  <input type="password" id="user-password" required />
+                  <label for="user-password">Repeat Password</label>
+                  <div class="bar"></div>
+                </li>
+              </ul>
+              <div class="btn-container">
+                <button type="submit" class="btn"><span>NEXT</span></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
