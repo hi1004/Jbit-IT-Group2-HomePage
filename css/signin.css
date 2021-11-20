@@ -50,9 +50,6 @@
   text-transform: uppercase;
 }
 
-.signin-container .card form .form-menu {
-}
-
 .signin-container .card form .form-menu li {
   position: relative;
   margin: 0 60px 50px;
@@ -69,6 +66,7 @@
   color: #212121;
   font-size: 24px;
   font-weight: 400;
+  padding: 0 5px;
 }
 
 .signin-container .card form .form-menu li label {
@@ -203,22 +201,21 @@
 
 /* IMG CONTAINER */
 .img-container {
-  width: 730px;
+  width: 1030px;
   height: 700px;
   display: flex;
   align-items: center;
   position: relative;
   overflow: hidden;
+  margin-left: 25px;
 }
 .img-container img {
   display: block;
-  /* top: -50%; */
-  /* transform: translateY(-50%); */
   position: absolute;
   width: 100%;
-  /* height: 100%; */
   background-size: cover;
   transition: 0.5s;
+  border-radius: 20px;
 }
 .img-container.active img:nth-child(2) {
   transform: translateX(-50%) scaleX(2);
