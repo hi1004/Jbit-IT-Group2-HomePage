@@ -4,7 +4,7 @@ main {
 .main-background {
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(#a3b5c0 35%, #0e2038);
+  background: linear-gradient(#a3b5c0 35%, #dad5cf);
   display: flex;
   justify-content: center;
   align-items: center;
