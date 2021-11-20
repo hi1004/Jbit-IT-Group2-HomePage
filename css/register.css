@@ -24,6 +24,7 @@
   padding: 60px 0 40px;
   overflow: hidden;
 }
+
 .signin-container .card.register .toggle {
   position: relative;
   background: #213a5c;
@@ -37,11 +38,13 @@
   text-align: center;
   cursor: pointer;
 }
+
 .signin-container .card.register .toggle::before {
   font-family: 'Material Icons';
   content: '\e150';
   display: inline-block;
 }
+
 .signin-container.active .card.register .toggle::before {
   content: '';
 }
@@ -121,14 +124,7 @@
 }
 
 .signin-container .card.register form li label {
-  position: absolute;
-  top: 0;
-  left: 0;
   color: rgba(255, 255, 255, 0.8);
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 60px;
-  transition: 0.2s ease;
 }
 
 .signin-container .card.register form li input:focus ~ label,
@@ -142,62 +138,16 @@
 
 .signin-container .card.register form li .bar::before,
 .signin-container .card.register form li .bar::after {
-  content: '';
-  position: absolute;
   background: #fff;
-  width: 0;
-  height: 2px;
-  transition: 0.2s ease;
-}
-
-.signin-container .card.register form li .bar::before {
-  left: 50%;
-}
-
-.signin-container .card.register form li input:focus ~ .bar::before,
-.signin-container .card.register form li input:focus ~ .bar::after {
-  width: 50%;
-}
-
-.signin-container .card.register form li .bar::after {
-  right: 50%;
-}
-
-.signin-container .card.register form .btn-container {
-  text-align: center;
-  margin: 0 60px;
 }
 
 .signin-container .card.register form .btn-container .btn {
-  outline: 0;
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
   background: #fff;
-  width: 240px;
   border: 2px solid #e3e3e3;
-  padding: 20px 0;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.3s ease;
 }
 
 .signin-container .card.register form .btn-container .btn::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
   background: #213a5c;
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  margin: -15px 0 0 -15px;
-  opacity: 0;
-  transition: 0.3s ease;
 }
 
 .signin-container .card.register form .btn-container .btn:focus,
@@ -206,17 +156,8 @@
   border-color: #fff;
 }
 
-.signin-container .card.register form .btn-container .btn:active::before,
-.signin-container .card.register form .btn-container .btn:focus::before {
-  opacity: 1;
-  transform: scale(10);
-}
-
 .signin-container .card.register form .btn-container .btn span {
-  position: relative;
-  z-index: 1;
   color: #213a5c;
-  transition: 0.3s ease;
 }
 
 .signin-container .card.register form .btn-container .btn:focus span,
