@@ -5,6 +5,13 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(#a3b5c0 35%, #dad5cf);
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  transform: scale(1.2);
 }
 
 .signin-container {
@@ -192,4 +199,46 @@
 }
 .signin-container .card form .forgot-password:hover {
   color: #bababa;
+}
+
+/* IMG CONTAINER */
+.img-container {
+  width: 730px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.img-container img {
+  display: block;
+  /* top: -50%; */
+  /* transform: translateY(-50%); */
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  background-size: cover;
+  transition: 0.5s;
+}
+.img-container.active img:nth-child(2) {
+  transform: translateX(-50%) scaleX(2);
+  opacity: 0;
+  filter: blur(10px);
+}
+.img-container.active img:nth-child(1) {
+  transform: translateX(-50%) scaleX(2);
+  opacity: 0;
+  filter: blur(10px);
+}
+.img-container.active img:nth-child(1) {
+  transform: translateX(0) scaleX(1);
+  opacity: 1;
+  filter: blur(0);
+}
+
+/* COPYRIGHT */
+footer .copyright {
+  position: absolute;
+  bottom: 45px;
+  right: 45px;
 }
