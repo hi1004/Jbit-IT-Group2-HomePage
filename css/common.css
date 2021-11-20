@@ -1,0 +1,9 @@
+@import url(https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css);
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  background-color: #fff;
+  color: #333333;
+  font-family: 'Nanum Gothic', sans-serif;
+}
