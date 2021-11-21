@@ -23,11 +23,18 @@ main {
   padding: 20px 0;
   letter-spacing: 8px;
   font-size: 2em;
+  color: #213a5c;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.main-background .main-container .title span {
+  color: #fff;
 }
 .main-background .main-container p {
   /* 내용 길이에 맞춰서 폰트수정 */
 }
 
+/* ICON BTN */
 .main-background .main-container .btn-group {
   width: 400px;
   height: 100px;
@@ -44,11 +51,74 @@ main {
   background-color: #213a5c;
   color: #fff;
   border-radius: 10px;
-  transition: 0.7s;
+  transition: 0.4s;
+  text-transform: uppercase;
+  position: relative;
+}
+.main-background .main-container .btn-group .btn a {
+  color: #fff;
+}
+
+.main-background .main-container .btn-group .btn span {
+  position: absolute;
+  display: block;
+  bottom: -40px;
+  font-size: 0.7rem;
+  width: 100%;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #213a5c;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease;
+  font-weight: 600;
+  transform: translateY(-20px);
+}
+
+.main-background .main-container .btn-group .btn span::before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #213a5c;
+  position: absolute;
+  top: -5px;
+  transform: rotate(45deg);
+}
+.main-background .main-container .btn-group .btn:nth-of-type(1)::before {
+  content: '\e88e';
+  font-family: 'Material Icons';
+  font-size: 2rem;
+}
+.main-background .main-container .btn-group .btn:nth-of-type(2)::before {
+  content: '\e87c';
+  font-family: 'Material Icons';
+  font-size: 2rem;
+}
+.main-background .main-container .btn-group .btn:nth-of-type(3)::before {
+  content: '\ea77';
+  font-family: 'Material Icons';
+  font-size: 2rem;
 }
 .main-background .main-container .btn-group .btn:hover {
   background-color: #fff;
   color: #213a5c;
-  transform: scale(1.4);
-  border-radius: 50%;
+  transform: scale(1.1);
+}
+.main-background .main-container .btn-group .btn:hover span {
+  visibility: visible;
+  opacity: 1;
+  color: #fff;
+  transform: translateY(0px);
+}
+
+/* COPYRIGHT */
+footer .copyright {
+  position: absolute;
+  bottom: 45px;
+  right: 45px;
 }
