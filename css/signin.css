@@ -233,6 +233,12 @@
   filter: blur(0);
 }
 
+@media all and (max-width: 1549px) {
+  .img-container {
+    display: none;
+  }
+}
+
 /* COPYRIGHT */
 footer .copyright {
   position: absolute;
