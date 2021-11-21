@@ -4,7 +4,8 @@ main {
 .main-background {
   height: 100vh;
   overflow: hidden;
-  background: linear-gradient(#a3b5c0 35%, #dad5cf);
+  background: linear-gradient(#3ca9c3, #fff);
+  /* background-image: url(../images/background.jpg); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,6 +55,7 @@ main {
   transition: 0.4s;
   text-transform: uppercase;
   position: relative;
+  box-shadow: 3px 3px 10px rgba(33, 58, 92, 0.8);
 }
 .main-background .main-container .btn-group .btn a {
   color: #fff;
