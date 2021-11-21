@@ -49,7 +49,7 @@ main {
   outline: none;
   height: 80px;
   line-height: 80px;
-  background-color: #4b9cd3;
+  background-color: #213a5c;
   color: #fff;
   border-radius: 10px;
   transition: 0.4s;
@@ -73,7 +73,7 @@ main {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #4b9cd3;
+  background-color: #213a5c;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease;
@@ -86,7 +86,7 @@ main {
   display: block;
   width: 12px;
   height: 12px;
-  background-color: #4b9cd3;
+  background-color: #213a5c;
   position: absolute;
   top: -5px;
   transform: rotate(45deg);
@@ -108,7 +108,7 @@ main {
 }
 .main-background .main-container .btn-group .btn:hover {
   background-color: #fff;
-  color: #4b9cd3;
+  color: #213a5c;
   transform: scale(1.1);
 }
 .main-background .main-container .btn-group .btn:hover span {
