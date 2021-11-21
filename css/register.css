@@ -1,3 +1,6 @@
+.signin-container.active .card:nth-child(1) {
+  margin: 0 20px;
+}
 .signin-container.active .card:nth-child(2) {
   background: #fafafa;
   margin: 0 10px;
