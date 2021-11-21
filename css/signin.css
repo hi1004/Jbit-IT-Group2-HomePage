@@ -4,14 +4,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(#a3b5c0 35%, #dad5cf);
+  /* background: linear-gradient(#a3b5c0 35%, #dad5cf); */
+  background: radial-gradient(circle, rgba(163, 181, 192, 1) 0%, #213a5c 100%);
   position: relative;
 }
 .logo {
   position: absolute;
-  top: 45px;
-  left: 45px;
-  transform: scale(1.2);
+  top: 15px;
+  left: 85px;
+  transform: scale(1.2) rotate(90deg);
 }
 
 .signin-container {
@@ -244,4 +245,5 @@ footer .copyright {
   position: absolute;
   bottom: 45px;
   right: 45px;
+  color: #fff;
 }
