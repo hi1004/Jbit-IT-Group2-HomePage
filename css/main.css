@@ -80,7 +80,7 @@ main {
   height: 80px;
   line-height: 80px;
   background-color: #fff;
-  color: #213a5c;
+  color: #0e47a1;
   border-radius: 10px;
   transition: 0.4s;
   text-transform: uppercase;
@@ -103,24 +103,24 @@ main {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #213a5c;
+  /* background-color: #0e47a1; */
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease;
   font-weight: 600;
-  transform: translateY(-20px);
+  transform: translateY(-30px);
 }
 
-.main-background .main-container .btn-group .btn span::before {
+/* .main-background .main-container .btn-group .btn span::before {
   content: "";
   display: block;
   width: 12px;
   height: 12px;
-  background-color: #213a5c;
+  background-color: #0e47a1;
   position: absolute;
   top: -5px;
   transform: rotate(45deg);
-}
+} */
 .main-background .main-container .btn-group .btn:nth-of-type(1)::before {
   content: "\e88e";
   font-family: "Material Icons";
@@ -136,16 +136,21 @@ main {
   font-family: "Material Icons";
   font-size: 2rem;
 }
+.main-background .main-container .btn-group .btn:hover::before {
+  display: block;
+  transform: translateY(-5px);
+  transition-duration: 0.3s;
+}
 .main-background .main-container .btn-group .btn:hover {
-  background-color: #fff;
-  color: #213a5c;
+  background-color: #1665c1;
+  color: #fff;
   transform: scale(1.1);
 }
 .main-background .main-container .btn-group .btn:hover span {
   visibility: visible;
   opacity: 1;
   color: #fff;
-  transform: translateY(0px);
+  transition-duration: 0.3s;
 }
 
 /* COPYRIGHT */
