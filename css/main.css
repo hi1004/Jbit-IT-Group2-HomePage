@@ -26,13 +26,13 @@ main {
 }
 @keyframes bg {
   0% {
-    background-position: 0% 100%;
+    background-position: 20% 100%;
   }
   50% {
-    background-position: 100% 100%;
+    background-position: 80% 100%;
   }
   100% {
-    background-position: 0% 100%;
+    background-position: 20% 100%;
   }
 }
 .main-background .main-container {
@@ -174,4 +174,45 @@ footer .copyright {
 
 .custom-shape-divider-top-1637585068 .shape-fill {
   fill: #ffffff;
+}
+
+/* wave effect */
+#wavebox {
+  position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+.wave {
+  opacity: 0.4;
+  position: absolute;
+  top: -195vw;
+  width: 200vw;
+  height: 200vw;
+  border-radius: 48%;
+  background-color: #fff;
+}
+.wave.first {
+  left: -30vw;
+  animation: drift 10s infinite linear;
+}
+.wave.second {
+  left: -50vw;
+  animation: drift 15s infinite linear;
+}
+.wave.third {
+  left: -70vw;
+  animation: drift 8s infinite linear;
+  opacity: 0.1;
+  background: yellow;
+}
+
+@keyframes drift {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
 }
