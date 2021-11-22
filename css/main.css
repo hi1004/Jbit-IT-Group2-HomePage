@@ -95,7 +95,7 @@ main {
 }
 
 .main-background .main-container .btn-group .btn span::before {
-  content: "";
+  content: '';
   display: block;
   width: 12px;
   height: 12px;
@@ -105,18 +105,18 @@ main {
   transform: rotate(45deg);
 }
 .main-background .main-container .btn-group .btn:nth-of-type(1)::before {
-  content: "\e88e";
-  font-family: "Material Icons";
+  content: '\e88e';
+  font-family: 'Material Icons';
   font-size: 2rem;
 }
 .main-background .main-container .btn-group .btn:nth-of-type(2)::before {
-  content: "\e87c";
-  font-family: "Material Icons";
+  content: '\e87c';
+  font-family: 'Material Icons';
   font-size: 2rem;
 }
 .main-background .main-container .btn-group .btn:nth-of-type(3)::before {
-  content: "\ea77";
-  font-family: "Material Icons";
+  content: '\ea77';
+  font-family: 'Material Icons';
   font-size: 2rem;
 }
 .main-background .main-container .btn-group .btn:hover {
