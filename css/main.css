@@ -10,6 +10,7 @@ main {
   align-items: center;
   background-size: 400%;
   animation: bg 10s infinite;
+  animation-timing-function: linear;
 }
 @keyframes bg {
   0% {
