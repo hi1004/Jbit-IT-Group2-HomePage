@@ -1,6 +1,10 @@
 main {
   position: relative;
 }
+.subtitle {
+  font-size: 2em;
+  font-weight: 900;
+}
 .main-background {
   height: 100vh;
   overflow: hidden;
