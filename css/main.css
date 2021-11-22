@@ -4,20 +4,32 @@ main {
 .main-background {
   height: 100vh;
   overflow: hidden;
-  background: radial-gradient(circle, rgb(9, 136, 214) 0%, #213a5c 100%);
+  /* background: radial-gradient(circle, rgb(9, 136, 214) 0%, #213a5c 100%); */
+  background: radial-gradient(
+    #1d89e4,
+    #0e47a1,
+    #82b1ff,
+    #1665c1,
+    #2196f3,
+    #1665c1,
+    #82b1ff,
+    #0e47a1,
+    #1d89e4
+  );
+  background-repeat: repeat-x;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: 400%;
-  animation: bg 10s infinite;
-  animation-timing-function: linear;
+  background-size: 600% 400%;
+  animation: bg 30s infinite;
+  animation-timing-function: ease-in-out;
 }
 @keyframes bg {
   0% {
     background-position: 0% 100%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 100% 100%;
   }
   100% {
     background-position: 0% 100%;
@@ -100,7 +112,7 @@ main {
 }
 
 .main-background .main-container .btn-group .btn span::before {
-  content: '';
+  content: "";
   display: block;
   width: 12px;
   height: 12px;
@@ -110,18 +122,18 @@ main {
   transform: rotate(45deg);
 }
 .main-background .main-container .btn-group .btn:nth-of-type(1)::before {
-  content: '\e88e';
-  font-family: 'Material Icons';
+  content: "\e88e";
+  font-family: "Material Icons";
   font-size: 2rem;
 }
 .main-background .main-container .btn-group .btn:nth-of-type(2)::before {
-  content: '\e87c';
-  font-family: 'Material Icons';
+  content: "\e87c";
+  font-family: "Material Icons";
   font-size: 2rem;
 }
 .main-background .main-container .btn-group .btn:nth-of-type(3)::before {
-  content: '\ea77';
-  font-family: 'Material Icons';
+  content: "\ea77";
+  font-family: "Material Icons";
   font-size: 2rem;
 }
 .main-background .main-container .btn-group .btn:hover {
