@@ -4,7 +4,7 @@ main {
 .main-background {
   height: 100vh;
   overflow: hidden;
-  background: radial-gradient(circle, rgba(163, 181, 192, 1) 0%, #213a5c 100%);
+  background: radial-gradient(circle, rgb(9, 136, 214) 0%, #213a5c 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,18 +26,21 @@ main {
 .main-background .main-container {
   width: 600px;
   text-align: center;
+  margin-top: 150px;
 }
 .main-background .main-container .logo {
   display: block;
   margin: 0 auto;
   outline: none;
+  margin-bottom: 50px;
 }
-.main-background .main-container .title {
+.main-background .main-container #united {
   padding: 20px 0;
-  letter-spacing: 8px;
-  font-size: 3rem;
-  color: #213a5c;
+  letter-spacing: 0;
+  font-size: 1rem;
+  color: #fff;
   font-weight: bold;
+
   text-transform: uppercase;
 }
 .main-background .main-container .title span {
@@ -46,6 +49,7 @@ main {
 .main-background .main-container p {
   /* 내용 길이에 맞춰서 폰트수정 */
   color: #fff;
+  margin-bottom: 100px;
 }
 
 /* ICON BTN */
@@ -63,13 +67,13 @@ main {
   outline: none;
   height: 80px;
   line-height: 80px;
-  background-color: #213a5c;
-  color: #fff;
+  background-color: #fff;
+  color: #213a5c;
   border-radius: 10px;
   transition: 0.4s;
   text-transform: uppercase;
   position: relative;
-  box-shadow: 3px 3px 10px rgba(33, 58, 92, 0.8);
+  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.3);
 }
 .main-background .main-container .btn-group .btn a {
   color: #fff;
@@ -137,10 +141,11 @@ footer .copyright {
   position: absolute;
   bottom: 45px;
   right: 45px;
+  color: #fff;
 }
-.custom-shape-divider-bottom-1637513937 {
+.custom-shape-divider-top-1637585068 {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -148,13 +153,13 @@ footer .copyright {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1637513937 svg {
+.custom-shape-divider-top-1637585068 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 172px;
+  height: 150px;
 }
 
-.custom-shape-divider-bottom-1637513937 .shape-fill {
+.custom-shape-divider-top-1637585068 .shape-fill {
   fill: #ffffff;
 }
