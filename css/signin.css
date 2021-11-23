@@ -24,16 +24,8 @@
 
 .logo {
   position: absolute;
-  top: 35px;
-  left: 45px;
-  transform: scale(1);
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.5);
-}
-.logo img {
-  display: block;
-  width: 200px;
+  top: 25px;
+  left: 25px;
 }
 
 .signin-container {
