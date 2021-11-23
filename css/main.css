@@ -1,25 +1,12 @@
 main {
   position: relative;
 }
-.subtitle {
-  font-size: 2em;
-  font-weight: 900;
-}
+
 .main-background {
   height: 100vh;
   overflow: hidden;
   /* background: radial-gradient(circle, rgb(9, 136, 214) 0%, #213a5c 100%); */
-  background: radial-gradient(
-    #1d89e4,
-    #0e47a1,
-    #82b1ff,
-    #1665c1,
-    #2196f3,
-    #1665c1,
-    #82b1ff,
-    #0e47a1,
-    #1d89e4
-  );
+  background: radial-gradient(#1d89e4, #0e47a1, #82b1ff, #1665c1, #1f7da8, #1665c1, #13aa70, #2ece99, #14b136);
   background-repeat: repeat-x;
   display: flex;
   justify-content: center;
@@ -44,20 +31,29 @@ main {
   text-align: center;
   margin-top: 150px;
 }
+
+.main-background .main-container .subtitle {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+}
+
 .main-background .main-container .logo {
   display: block;
   margin: 0 auto;
   outline: none;
-  margin-bottom: 50px;
+  /* margin-bottom: 10px; */
+  position: relative;
 }
-.main-background .main-container #united {
-  padding: 20px 0;
+
+.main-background .main-container .united {
   letter-spacing: 0;
-  font-size: 1rem;
+  font-size: 3rem;
   color: #fff;
   font-weight: bold;
-
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
 }
 .main-background .main-container .title span {
   color: #fff;
@@ -65,7 +61,7 @@ main {
 .main-background .main-container p {
   /* 내용 길이에 맞춰서 폰트수정 */
   color: #fff;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 /* ICON BTN */
@@ -86,64 +82,36 @@ main {
   background-color: #fff;
   color: #0e47a1;
   border-radius: 10px;
-  transition: 0.4s;
+  transition: 0.3s ease;
   text-transform: uppercase;
   position: relative;
   box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.3);
 }
-.main-background .main-container .btn-group .btn a {
-  color: #fff;
-}
 
-.main-background .main-container .btn-group .btn span {
-  position: absolute;
-  display: block;
+.main-background .main-container .btn-group .btn .text {
   bottom: -40px;
   font-size: 0.7rem;
-  width: 100%;
-  height: 50px;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  /* background-color: #0e47a1; */
+  color: red;
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease;
   font-weight: 600;
-  transform: translateY(-30px);
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+  /* bottom: -30px; */
 }
 
-/* .main-background .main-container .btn-group .btn span::before {
-  content: "";
+.main-background .main-container .btn-group .btn .material-icons {
+  font-size: 2rem;
+  color: #1665c1;
+}
+.main-background .main-container .btn-group .btn:hover .material-icons {
   display: block;
-  width: 12px;
-  height: 12px;
-  background-color: #0e47a1;
-  position: absolute;
-  top: -5px;
-  transform: rotate(45deg);
-} */
-.main-background .main-container .btn-group .btn:nth-of-type(1)::before {
-  content: "\e88e";
-  font-family: "Material Icons";
-  font-size: 2rem;
-}
-.main-background .main-container .btn-group .btn:nth-of-type(2)::before {
-  content: "\e87c";
-  font-family: "Material Icons";
-  font-size: 2rem;
-}
-.main-background .main-container .btn-group .btn:nth-of-type(3)::before {
-  content: "\ea77";
-  font-family: "Material Icons";
-  font-size: 2rem;
-}
-.main-background .main-container .btn-group .btn:hover::before {
-  display: block;
-  transform: translateY(-5px);
-  transition-duration: 0.3s;
+  /* transform: translateY(-5px); */
+  /* transition: 0.3s ease; */
 }
 .main-background .main-container .btn-group .btn:hover {
   background-color: #1665c1;
@@ -154,7 +122,6 @@ main {
   visibility: visible;
   opacity: 1;
   color: #fff;
-  transition-duration: 0.3s;
 }
 
 /* COPYRIGHT */
