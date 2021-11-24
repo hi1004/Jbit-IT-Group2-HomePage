@@ -103,6 +103,10 @@ body {
 }
 
 /*offline css*/
+.wrap-activities {
+  /*width: ;*/
+  margin: 0 auto;
+}
 .wrap-activities-offline {
   margin: 0 auto;
   width: 1400px;
@@ -145,8 +149,10 @@ p {
 .offline-img-title {
   font-size: 20px;
 }
-.date:hover {
-  color: darkcyan;
+.date:hover,
+.offline-img-title:hover {
+  background-color: midnightblue;
+  color: white;
 }
 
 .scale {
