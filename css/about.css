@@ -26,56 +26,6 @@ header:hover {
   display: block;
 }
 
-/* .Account_github a {
-  margin-left: 58px;
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  opacity: 0.5;
-}
-
-.Account_slack a {
-  margin-left: 56px;
-  line-height: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  opacity: 0.5;
-}
-
-.Activity_online a {
-  margin-left: 58px;
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  opacity: 0.5;
-}
-
-.Activity_offline a {
-  margin-left: 56px;
-  line-height: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  opacity: 0.5;
-}
-
-.Intro_group2 a {
-  margin-left: 54px;
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  opacity: 0.5;
-}
-
-.Intro_people a {
-  margin-left: 50px;
-  line-height: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: 13px;
-  opacity: 0.5;
-} */
 header:hover .menu-wrap {
   opacity: 1;
 }
