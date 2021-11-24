@@ -1,12 +1,11 @@
 @font-face {
-  font-family: "EliceDigitalBaeum_Bold";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff")
-    format("woff");
+  font-family: 'EliceDigitalBaeum_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: "EliceDigitalBaeum_Bold";
+  font-family: 'EliceDigitalBaeum_Bold';
   background-color: skyblue;
 }
 
@@ -104,8 +103,8 @@ body {
 
 /*offline css*/
 .wrap-activities {
-  /*width: ;*/
-  margin: 0 auto;
+  width: calc(100% - 200px);
+  float: left;
 }
 .wrap-activities-offline {
   margin: 0 auto;
