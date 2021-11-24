@@ -6,17 +6,7 @@ main {
   height: 100vh;
   overflow: hidden;
   /* background: radial-gradient(circle, rgb(9, 136, 214) 0%, #213a5c 100%); */
-  background: radial-gradient(
-    #1d89e4,
-    #0e47a1,
-    #82b1ff,
-    #1665c1,
-    #1f7da8,
-    #1665c1,
-    #13aa70,
-    #2ece99,
-    #14b136
-  );
+  background: radial-gradient(#1d89e4, #0e47a1, #82b1ff, #1665c1, #1f7da8, #1665c1, #13aa70, #2ece99, #14b136);
   background-repeat: repeat-x;
   display: flex;
   justify-content: center;
