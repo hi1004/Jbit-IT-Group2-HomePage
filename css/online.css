@@ -27,7 +27,7 @@ header {
 
 table {
   border: 1px solid;
-  
+  line-height: 30px;
 }
 
 h1 {
@@ -35,13 +35,15 @@ h1 {
   font-size: 50px;
 }
 
-tr,
-th {
-  border: 1px solid;
-  text-indent: 10px;
- border; 
+tr {
+  border: 2px solid;
+  text-indent: 20px;
 }
-
+th {
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
 .htmllist {
   height: 400px;
   width: 500px;
@@ -71,7 +73,7 @@ caption {
   justify-content: space-around;
 }
 
-img{
-    height: 30px;
-    width: 30px;
+img {
+  height: 30px;
+  width: 30px;
 }
