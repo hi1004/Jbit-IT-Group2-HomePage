@@ -27,7 +27,7 @@ header {
 
 table {
   border: 1px solid;
-  text-align: center;
+  
 }
 
 h1 {
@@ -38,6 +38,8 @@ h1 {
 tr,
 th {
   border: 1px solid;
+  text-indent: 10px;
+ border; 
 }
 
 .htmllist {
@@ -67,4 +69,9 @@ caption {
 .wrap-table {
   display: flex;
   justify-content: space-around;
+}
+
+img{
+    height: 30px;
+    width: 30px;
 }
