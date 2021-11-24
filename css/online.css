@@ -104,14 +104,39 @@ header:hover .menu-wrap {
   text-transform: uppercase;
 }
 
-table {
-  border: 1px solid;
-  line-height: 30px;
+/*online css*/
+.wrap-activities {
+  width: calc(100% - 200px);
+  float: left;
+}
+
+.wrap-activities-online {
+  margin: 0 auto;
+  width: 1400px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 30px;
 }
 
 h1 {
-  color: blue;
-  font-size: 50px;
+  height: 150px;
+  text-align: center;
+  color: midnightblue;
+  font-size: 60px;
+  line-height: 150px;
+  text-shadow: 5px 5px 5px #fff;
+}
+h2 {
+  text-align: left;
+  text-indent: 50px;
+  color: midnightblue;
+  font-size: 40px;
+  line-height: 80px;
+}
+
+table {
+  border: 1px solid;
+  line-height: 40px;
 }
 
 tr {
@@ -127,6 +152,9 @@ th {
 }
 /* .htmllist {
   width: 500px;
+.htmllist {
+  height: 600px;
+  width: 600px;
   margin: 0 auto;
   float: left;
   display: flex;
@@ -135,6 +163,8 @@ th {
 
 .csslist {
   width: 500px;
+  height: 400px;
+  width: 600px;
   margin: 0 auto;
   float: left;
 } */
@@ -178,6 +208,7 @@ caption a img {
 /* FOOTER */
 footer {
   width: 100%;
+  height: 100px;
   background-color: #0e2038;
   position: absolute;
   bottom: 0;
