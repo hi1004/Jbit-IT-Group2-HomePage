@@ -26,6 +26,7 @@ h1 {
   color: midnightblue;
   font-size: 60px;
   line-height: 150px;
+  text-shadow: 5px 5px 5px #fff;
 }
 
 h2 {
@@ -36,8 +37,38 @@ h2 {
   line-height: 100px;
 }
 
+p {
+  text-align: center;
+}
+
+.scale {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out; /* 부드러운 모션을 위해 추가*/
+}
+.scale:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  box-shadow: 5px 5px 5px #ccc;
+}
+
 .wrap-activities-offline img {
-  width: 300px;
+  width: 320px;
+  height: 180px;
+  border-radius: 30px;
+}
+
+.offline-img {
+  width: 320px;
+  height: 180px;
+  border-radius: 30px;
+  overflow: hidden;
 }
 
 .offline-1st {
