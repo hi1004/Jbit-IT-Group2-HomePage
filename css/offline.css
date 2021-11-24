@@ -1,11 +1,12 @@
 @font-face {
-  font-family: 'EliceDigitalBaeum_Bold';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
+  font-family: "EliceDigitalBaeum_Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 body {
-  font-family: 'EliceDigitalBaeum_Bold';
+  font-family: "EliceDigitalBaeum_Bold";
   background-color: skyblue;
 }
 
@@ -131,7 +132,7 @@ h2 {
   text-indent: 50px;
   color: midnightblue;
   font-size: 40px;
-  line-height: 100px;
+  line-height: 80px;
 }
 
 p {

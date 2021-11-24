@@ -11,28 +11,131 @@ body {
   background-color: skyblue;
 }
 
-header {
-  color: blue;
-  font-size: 100px;
+/*메뉴*/
+.menu_backgraund {
+  height: 100vh;
+  width: 200px;
+  background-color: darkblue; /*일단 임의로 지정*/
+  float: left;
+}
+.logo {
   text-align: center;
+  background-color: darkgoldenrod;
+  height: 80px;
+  line-height: 80px;
+}
+.logo a {
+  color: black;
+  display: block;
+}
+.Intro {
+  width: 160px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.Activity {
+  width: 160px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 8px;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.Account {
+  width: 160px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 8px;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.Account_github a {
+  margin-left: 58px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.Account_slack a {
+  margin-left: 56px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  opacity: 0.5;
 }
 
-.wrap {
-  background-color: white;
-  width: 1200px;
-  height: 700px;
+.Activity_online a {
+  margin-left: 58px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.Activity_offline a {
+  margin-left: 56px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.Intro_group2 a {
+  margin-left: 54px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  opacity: 0.5;
+}
+.Intro_people a {
+  margin-left: 50px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+/*online css*/
+.wrap-activities {
+  width: calc(100% - 200px);
+  float: left;
+}
+
+.wrap-activities-online {
   margin: 0 auto;
-  border-radius: 20px;
+  width: 1400px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+h1 {
+  height: 150px;
+  text-align: center;
+  color: midnightblue;
+  font-size: 60px;
+  line-height: 150px;
+  text-shadow: 5px 5px 5px #fff;
+}
+h2 {
+  text-align: left;
+  text-indent: 50px;
+  color: midnightblue;
+  font-size: 40px;
+  line-height: 80px;
 }
 
 table {
   border: 1px solid;
-  line-height: 30px;
-}
-
-h1 {
-  color: blue;
-  font-size: 50px;
+  line-height: 40px;
 }
 
 tr {
@@ -45,8 +148,8 @@ th {
   font-size: 20px;
 }
 .htmllist {
-  height: 400px;
-  width: 500px;
+  height: 600px;
+  width: 600px;
   margin: 0 auto;
   float: left;
   display: flex;
@@ -55,7 +158,7 @@ th {
 
 .csslist {
   height: 400px;
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
   float: left;
 }
@@ -76,4 +179,12 @@ caption {
 img {
   height: 30px;
   width: 30px;
+}
+
+/* COPYRIGHT */
+footer .copyright {
+  position: absolute;
+  bottom: 45px;
+  right: 45px;
+  color: #fff;
 }

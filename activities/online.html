@@ -9,14 +9,146 @@
     <link rel="stylesheet" href="../css/online.css" />
   </head>
   <body>
-    <header>
-      Activities
-    </header>
-    <main>
-
-      <DIV class="wrap">
-
+    <div class="menu_backgraund">
+      <header>
+        <nav>
+          <div class="logo"><a href ="javascript:void(0)">로고 영역</a></div> <!--나중에 img 태그로 바꿀 것! !-->
       
+          <!--introduce 매뉴 영역 !-->
+          <div class="Intro">Introduce</div>
+          <ul>
+            <!-- 나중에 매뉴명칭 영문으로 변경해야됨 !-->
+            <li class="Intro_group2"><a href="javascript:void(0)">2조 소개</a></li>
+            <li class="Intro_people"><a href="javascript:void(0)">조원 소개</a></li>
+          </ul>
+  
+          <!--Activity 매뉴 영역 !-->
+          <div class="Activity">Activity</div>
+          <ul>
+            <!-- 나중에 매뉴명칭 영문으로 변경해야됨 !-->
+            <li class="Activity_online"><a href="javascript:void(0)">Online</a></li>
+            <li class="Activity_offline"><a href="javascript:void(0)">Offline</a></li>
+          </ul>
+      
+          <!--Account 매뉴 영역 !-->
+          <div class="Account">Account</div>
+          <ul>
+            <!-- 나중에 매뉴명칭 영문으로 변경해야됨 !-->
+            <li class="Account_github"><a href="https://github.com/hi1004/Jbit-IT-Group2-HomePage" target="_blank">github</a></li>
+            <li class="Account_slack"><a href="https://app.slack.com/client/T0299KCJ7LM/C029JS1QYAG" target="_blank">slack</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="wrap-activities">
+        <!-- Activities 제목 -->
+        <h1>Activities</h1>
+        <div class="wrap-activities-online">
+          <h2><ins>Online</ins></h2>
+          <div class="wrap-table">
+          <!-- HTML TABLE -->
+          <div class="htmllist">
+            <table border="1">
+              <caption>
+                <a href="##" art="로고"><img src="../images/html.jpg" art="로고"> HTML</a>
+              </caption>
+              <thead>
+                <th>HTML 구조</th>
+              </thead>
+              <tbody class="tr">
+                <tr>
+                  <td>
+                    <!-- <p>body태그는 문서의 몸통을 나타내는 태그입니다.</p> -->
+                    <p>블록요소: div, h1~h6, p, ul, ol, table</p>
+                    <p>인라인요소: span, img, b, a, strong, input, select</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p><b>P</b>태그는 paragraph, 즉 문단의 약자로, 하나의 문단을 만들 때 쓰입니다.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>img태그는 이미지를 삽입하는 태그로, src 속성을 통해 이미지 경로를 지정합니다.<!-- (src, width, height 속성) --></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>table태그는 HTML 문서에서 표를 만드는 태그입니다.</p>
+                    <p>행과 열을 표현하기 위해 tr, td등의 태그와 함께 작성하게 됩니다.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>div태그는 Division의 약자로, 레이아웃을 나누는데 주로 쓰입니다.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>span태그는 div태그처럼 특별한 기능을 갖고있지 않고, CSS와 함께 쓰입니다.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>li태그는 list의 약자로, 목록을 만드는 태그입니다.</p>
+                    <p>(il 태그는 번호를 메겨 순서가 있는 목록을, ul은 순서없는 모양으로 만듭니다.)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p>from태그는 웹 페이지에서의 입력 양식을 의미합니다.</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- CSS TABLE -->
+          <div class="csslist">
+            <table border="1" cellspadding= "10px">
+              <caption>
+                <a href="##" art="로고"><img src="../images/css.jpg" art="로고">CSS</a>
+              </caption>
+              <thead>
+                <tr>
+                  <th>CSS 구조</th>
+                </tr>
+              </thead> 
+              <tbody>
+                <tr>
+                  <td>
+                    <p>CSS는 어떤 태그들에게 스타일 효과를 주는 언어입니다.</p>
+                    <p>그렇다면 어떤 태그에 적용하는지를 정의하는 문법이 필요하게 되는데, 이때의 문법을 선택자 라고 합니다.</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>CSS 스타일 우선순위</th>
+                </tr>
+                <tr>
+                  <td>1.!important(어떤 스타일보다 우선 적용하는 스타일이다.)</td>
+                </tr>
+                <tr>
+                  <td>2.인라인 스타일(태그 안에 style 속성을 사용해 해당 태그만 스타일을 적용한다.</td>
+                </tr>
+                <tr>
+                  <td>3.id 스타일(지정한 부분만 적용하며 한 문서에 한번만 사용이 가능하다.</td>
+                </tr>
+                <tr>
+                  <td>4.클래스 스타일(지정한 부분에만 적용하며 한 문서에 여러번 적용할 수 있다.)</td>
+                </tr>
+                <tr>
+                  <td>5.타입 스타일(웹 문서에 사용한 특정 태그에 스타일을 똑같이 적용한다.)</td>
+                </tr>
+                <tr>
+                  <td>from태그는 웹 페이지에서의 입력 양식을 의미합니다.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          </div>
+        </div>
+      </div>
 
   <!--
     <br>
@@ -102,114 +234,6 @@
   
   -->
 
-    
-    <H1>Online</H1>
-    <div class="wrap-table">
-    <div class="htmllist">
-    <table border="1">
-      <caption><a href="##" art="로고"><img src="../images/html.jpg" art="로고"> HTML</a></caption>
-      <thead>
-      <tr>
-        <th>HTML 구조</th>
-      </tr>
-      <tr>
-        <td><p>body태그는 문서의 몸통을 나타내는 태그입니다.</p>
-          <p>블록요소에는 div, h1~h6, p, ul과 ol, table,</p> 
-          인라인요소에는span, img, b, a, strong, input, select
-          가 있습니다.</td>
-      </tr>
-    </thead>
-
-    <tbody class="tr">
-      <tr>
-        <td><b>P</b>태그는 paragraph, 즉 문단의 약자로, 하나의 문단을 만들 때 쓰입니다.</th>
-        
-      </tr>
-      <tr>
-        <td>img태그는 이미지를 삽입하는 태그로, src 속성을 통해 이미지 경로를 지정합니다.
-       (src, width, height 속성)
-      </tr>
-      <tr>
-        <td>
-    table태그는 HTML 문서에서 표를 만드는 태그입니다.<p> 
-      행과 열을 표현하기 위해 tr, td등의 태그와 함께 작성하게 됩니다.</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-        div태그는 Division의 약자로, 레이아웃을 나누는데 주로 쓰입니다.
-        </td>
-      </tr>
-      <tr>
-        <td>
-        span태그는 div태그처럼 특별한 기능을 갖고있지 않고, CSS와 함께 쓰입니다.
-        </td>
-      </tr>
-      <tr>
-        <td>
-          li태그는 list의 약자로, 목록을 만드는 태그입니다.<p>  
-            (il 태그는 번호를 메겨 순서가 있는 목록을, ul은 순서없는 모양으로 만듭니다.)</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-        from태그는 웹 페이지에서의 입력 양식을 의미합니다.
-        </td>
-      </tr>
-    </tbody>
-    </table>
-</table>
-</div>
-
-<div class="csslist">
-  <table border="1" cellspadding= "10px">
-    <caption><a href="##" art="로고"><img src="../images/css.jpg" art="로고"> CSS</a></caption>
-    <thead>
-    <tr>
-      <th>HTML 구조</th>
-    </tr>
-    <tr>
-      <td>CSS는 어떤 태그들에게 스타일 효과를 주는 언어입니다.
-
-        그렇다면 어떤 태그에 적용하는지를 정의하는 문법이 필요하게 되는데, 이때의 문법을 선택자 라고 합니다.</td>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>CSS 스타일 우선순위</th>
-      
-    </tr>
-    <tr>
-      <td>1.!important(어떤 스타일보다 우선 적용하는 스타일이다.)</td>
-    </tr>
-    <tr>
-      <td>2.인라인 스타일(태그 안에 style 속성을 사용해 해당 태그만 스타일을 적용한다.</td>
-    </tr>
-    <tr>
-      <td>
-        3.id 스타일(지정한 부분만 적용하며 한 문서에 한번만 사용이 가능하다.</td>
-    </tr>
-    <tr>
-      <td>
-     4.클래스 스타일(지정한 부분에만 적용하며 한 문서에 여러번 적용할 수 있다.)
-      </td>
-    </tr>
-    <tr>
-      <td>
-     5.타입 스타일(웹 문서에 사용한 특정 태그에 스타일을 똑같이 적용한다.)
-      </td>
-    </tr>
-    <tr>
-      <td>
-       from태그는 웹 페이지에서의 입력 양식을 의미합니다.
-      </td>
-    </tr>
-  </tbody>
-  </table>
-</table>
-</div>
-</div>
 <!--
 
 <div>
@@ -234,5 +258,9 @@
   </div>
   -->
 </main>
+    <!-- Activities Online Footer -->
+    <footer>
+      <p class="copyright">&copy;COPYRIGHT 2021. J-BIT UNITED IT. ALL RIGHTS RESERVED.</p>
+    </footer>
   </body>
 </html>
