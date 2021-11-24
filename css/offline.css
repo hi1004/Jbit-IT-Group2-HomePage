@@ -1,12 +1,46 @@
-.wrap-activities-offline h1 {
+@font-face {
+  font-family: "EliceDigitalBaeum_Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "EliceDigitalBaeum_Bold";
+  background-color: skyblue;
+}
+.wrap-activities-offline {
+  margin: 0 auto;
+  width: 1300px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.offline1 {
+  margin: 0 auto;
+}
+
+h1 {
+  height: 150px;
   text-align: center;
-  color: blue;
-  font-size: 60px !important;
+  color: midnightblue;
+  font-size: 60px;
+  line-height: 150px;
+}
+
+h2 {
+  text-align: left;
+  text-indent: 30px;
+  color: midnightblue;
+  font-size: 30px;
+  line-height: 100px;
 }
 
 .wrap-activities-offline img {
   width: 300px;
 }
 
-.offline1 {
+.offline-1st {
+  display: flex;
+  justify-content: space-around;
 }
