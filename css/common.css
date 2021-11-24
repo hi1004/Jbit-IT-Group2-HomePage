@@ -14,3 +14,7 @@ body {
   color: #333333;
   font-family: "Nanum Gothic", sans-serif;
 }
+
+ul li {
+  text-align: center;
+}
