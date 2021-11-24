@@ -11,10 +11,14 @@ body {
   font-family: 'EliceDigitalBaeum_Bold';
   background-color: #213a5c;
 }
-
+.online-wrap {
+  position: relative;
+  overflow: hidden;
+}
 .online-contents-wrap {
   width: calc(100% - 200px);
   float: right;
+  margin-bottom: 100px;
 }
 .online-contents-wrap .online-contents {
   width: 1500px;
@@ -169,4 +173,20 @@ caption a img {
 .wrap-table {
   display: flex;
   justify-content: space-around;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: #0e2038;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer .copyright {
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  color: rgba(216, 215, 215, 0.596);
 }
