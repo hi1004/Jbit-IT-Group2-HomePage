@@ -104,8 +104,8 @@ body {
 
 /*offline css*/
 .wrap-activities {
-  /*width: ;*/
-  margin: 0 auto;
+  width: calc(100% - 200px);
+  float: left;
 }
 .wrap-activities-offline {
   margin: 0 auto;
@@ -132,7 +132,7 @@ h2 {
   text-indent: 50px;
   color: midnightblue;
   font-size: 40px;
-  line-height: 100px;
+  line-height: 80px;
 }
 
 p {

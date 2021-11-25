@@ -1,0 +1,113 @@
+.about-wrap {
+  position: relative;
+  background-color: #21395b;
+}
+/* HEADER */
+header {
+  height: 100%;
+  width: 200px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #21395b; /*일단 임의로 지정*/
+  position: fixed; /* position: fixed 정의 */
+  transition: 0.4s ease; /* transition 0.4초 */
+}
+
+header:hover {
+  background-color: #0e2038; /* header hover시 색상 변경 */
+}
+
+.logo {
+  width: 150px;
+  margin: 25px auto;
+}
+
+.logo a {
+  display: block;
+}
+
+header:hover .menu-wrap {
+  opacity: 1;
+}
+
+.menu-wrap {
+  padding: 30px 15px;
+  background-color: rgba(30, 102, 143, 0.871);
+  border-radius: 15px;
+  opacity: 0.6;
+  height: 100%;
+}
+
+.nav-list {
+  height: 40px;
+  margin: 0 auto;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: white;
+  opacity: 0.5;
+}
+
+.nav-list:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.sub-list a {
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.sub-list a:hover {
+  opacity: 1; /* sub-list hover시 opacity:1 */
+}
+
+.active,
+.sub-list .active {
+  opacity: 1; /* about page에서는 opacity:1 */
+}
+
+.sub-list.login {
+  margin-top: 50px;
+  text-align: center;
+}
+.sub-list.login a {
+  color: #fff;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
+
+/* ABOUT IMAGES */
+.images-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.images-wrap img {
+  width: 90%;
+  height: 100vh;
+  padding: 70px;
+  box-sizing: border-box;
+}
+.images-wrap img:last-child {
+  margin-bottom: 100px;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: #0e2038;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer .copyright {
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  color: rgba(216, 215, 215, 0.596);
+}

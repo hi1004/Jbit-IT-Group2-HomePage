@@ -5,50 +5,158 @@
   font-weight: normal;
   font-style: normal;
 }
-
+* {
+  box-shadow: border-box;
+}
 body {
   font-family: "EliceDigitalBaeum_Bold";
-  background-color: skyblue;
+  background-color: #213a5c;
+}
+.online-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.online-contents-wrap {
+  width: calc(100% - 200px);
+  float: right;
+  margin-bottom: 100px;
+}
+.online-contents-wrap .online-contents {
+  width: 1500px;
+  background-color: #b5c7d8;
+  border-radius: 20px;
+  margin: 60px auto;
 }
 
+/* HEADER */
 header {
-  color: blue;
-  font-size: 100px;
+  height: 100%;
+  width: 200px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #21395b; /*일단 임의로 지정*/
+  position: fixed; /* position: fixed 정의 */
+  transition: 0.4s ease; /* transition 0.4초 */
+}
+
+header:hover {
+  background-color: #0e2038; /* header hover시 색상 변경 */
+}
+
+.logo {
+  width: 150px;
+  margin: 25px auto;
+}
+
+.logo a {
+  display: block;
+}
+
+header:hover .menu-wrap {
+  opacity: 1;
+}
+
+.menu-wrap {
+  padding: 30px 15px;
+  background-color: rgba(30, 102, 143, 0.871);
+  border-radius: 15px;
+  opacity: 0.6;
+  height: 100%;
+}
+
+.nav-list {
+  height: 40px;
+  margin: 0 auto;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: white;
+  opacity: 0.5;
+}
+
+.nav-list:nth-of-type(1) {
+  margin-top: 0;
+}
+
+.sub-list a {
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.sub-list a:hover {
+  opacity: 1; /* sub-list hover시 opacity:1 */
+}
+
+.active,
+.sub-list .active {
+  opacity: 1; /* about page에서는 opacity:1 */
+}
+
+.sub-list.login {
+  margin-top: 50px;
   text-align: center;
   text-shadow: white 10px 10px 10px;
 }
+.sub-list.login a {
+  color: #fff;
+  opacity: 0.9;
+  text-transform: uppercase;
+}
 
-.wrap {
-  background-color: white;
-  width: 1200px;
-  height: 700px;
+/*online css*/
+.wrap-activities {
+  width: calc(100% - 200px);
+  float: left;
+}
+
+.wrap-activities-online {
   margin: 0 auto;
-  border-radius: 20px;
+  width: 1400px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+h1 {
+  height: 150px;
+  text-align: center;
+  color: midnightblue;
+  font-size: 60px;
+  line-height: 150px;
+  text-shadow: 5px 5px 5px #fff;
+}
+h2 {
+  text-align: left;
+  text-indent: 50px;
+  color: midnightblue;
+  font-size: 40px;
+  line-height: 80px;
 }
 
 table {
   border: 1px solid;
-  line-height: 30px;
-}
-
-h1 {
-  color: blue;
-  font-size: 50px;
-  font-weight: 30px;
+  line-height: 40px;
 }
 
 tr {
   border: 2px solid;
-  text-indent: 20px;
+}
+td {
+  padding: 20px;
 }
 th {
-  background-color: blue;
+  background-color: #213a5c;
   color: white;
   font-size: 20px;
 }
-.htmllist {
-  height: 400px;
+/* .htmllist {
   width: 500px;
+.htmllist {
+  height: 600px;
+  width: 600px;
   margin: 0 auto;
   float: left;
   display: flex;
@@ -56,10 +164,23 @@ th {
 }
 
 .csslist {
-  height: 400px;
   width: 500px;
+  height: 400px;
+  width: 600px;
   margin: 0 auto;
   float: left;
+} */
+.list {
+  width: 50%;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+.list.htmllist {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.list.csslist {
+  padding-right: 50px;
 }
 
 .Online {
@@ -68,14 +189,37 @@ th {
 }
 caption {
   font-size: 23px;
-  color: blue;
+  margin: 10px 0;
+}
+caption a {
+  color: #213a5c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+}
+caption a img {
+  width: 30px;
+  display: block;
 }
 .wrap-table {
   display: flex;
   justify-content: space-around;
 }
 
-img {
-  height: 30px;
-  width: 30px;
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #0e2038;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer .copyright {
+  text-align: center;
+  line-height: 100px;
+  height: 100px;
+  color: rgba(216, 215, 215, 0.596);
 }
