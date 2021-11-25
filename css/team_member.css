@@ -1,14 +1,13 @@
 @font-face {
-  font-family: "EliceDigitalBaeum_Bold";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff")
-    format("woff");
+  font-family: 'EliceDigitalBaeum_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
   background-color: #21395b;
-  font-family: "EliceDigitalBaeum_Bold";
+  font-family: 'EliceDigitalBaeum_Bold';
 }
 
 .liststyle {
@@ -20,19 +19,25 @@ body {
   overflow: hidden;
   background: radial-gradient(circle, rgba(163, 181, 192, 1) 0%, #213a5c 100%);
 }
-.about-contents {
-  width: 1500px;
-  background: linear-gradient(45deg, #b5c7d8, #eee, #b5c7d8);
-  /* background-color: #b5c7d8; */
-  border-radius: 20px;
-  margin: 60px auto;
-  padding: 20px 0;
-}
+
 .about-contents-wrap {
   width: calc(100% - 200px);
   height: calc(100vh - 100px);
   float: right;
   margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: center;
+  align-items: center;
+}
+
+.about-contents {
+  width: 1500px;
+  background: linear-gradient(45deg, #b5c7d8, #eee, #b5c7d8);
+  border-radius: 20px;
+  /* margin: 45px auto; */
+  padding: 20px 0;
 }
 
 .profile-wrap {
@@ -44,12 +49,10 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-.wrap2 {
-  align-items: flex-start;
-}
+
 .profile-card {
   border-radius: 10px;
-  width: 250px;
+  width: 280px;
   height: 300px;
   background-color: #b5c7d8;
   box-shadow: #b5c7d8 0px 0px 5px;
@@ -62,8 +65,7 @@ body {
 .profile-card img {
   display: block;
   margin: 0 auto;
-  width: 200px;
-  height: 200px;
+  width: 180px;
 }
 .profile-card .text {
   text-align: center;
@@ -77,5 +79,5 @@ body {
 }
 
 .profile-card .text .one {
-  font-size: 12px;
+  font-size: 16px;
 }
