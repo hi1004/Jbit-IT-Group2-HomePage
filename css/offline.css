@@ -80,6 +80,8 @@ p {
 }
 
 .scale {
+  display: block;
+  margin: 0 auto;
   transform: scale(1);
   transition: all 0.3s ease-in-out;
 }
@@ -89,13 +91,13 @@ p {
 }
 
 .offline-contents-wrap img {
-  width: 320px;
+  width: 350px;
   height: 180px;
   border-radius: 10px;
 }
 
 .offline-img {
-  width: 320px;
+  width: 350px;
   height: 180px;
   border-radius: 10px;
   overflow: hidden;
@@ -112,6 +114,7 @@ p {
 
 .offline-day-wrap {
   padding: 30px;
+  width: 350px;
   height: 500px;
   background-color: rgba(255, 255, 255, 0.4);
   box-shadow: 0px 0px 10px rgba(200, 200, 200, 1);
@@ -120,7 +123,6 @@ p {
 }
 
 .offline-day-wrap:hover {
-  scale: 1.1;
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 1);
 }
