@@ -113,7 +113,7 @@ header:hover .menu-wrap {
   border-radius: 10px;
   width: 300px;
   height: 400px;
-  background-color: pink;
+  background-color: #b5c7d8;
 }
 .profile-card img {
   display: block;
@@ -126,7 +126,7 @@ header:hover .menu-wrap {
   font-size: 20px;
 }
 .profile-card .text .tesk {
-  color: white;
+  color: #0e2038;
 }
 .profile-card .text .name {
   font-size: 35px;
