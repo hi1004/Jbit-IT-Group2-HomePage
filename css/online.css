@@ -137,6 +137,7 @@ h2 {
 }
 
 table {
+  width: 600px;
   border: 1px solid;
   line-height: 40px;
 }
@@ -145,42 +146,33 @@ tr {
   border: 2px solid;
 }
 td {
+  border: 1px solid pink;
   padding: 20px;
+  font-style: bold;
+  font-size: 1.5em;
+}
+td p {
+  font-size: 20px;
 }
 th {
   background-color: #213a5c;
   color: white;
   font-size: 20px;
 }
-/* .htmllist {
-  width: 500px;
-.htmllist {
-  height: 600px;
-  width: 600px;
-  margin: 0 auto;
-  float: left;
-  display: flex;
-  justify-content: space-around;
+.table-list a {
+  text-decoration: none;
+  color: black;
 }
-
-.csslist {
-  width: 500px;
-  height: 400px;
-  width: 600px;
-  margin: 0 auto;
-  float: left;
-} */
+.days {
+  vertical-align: middle;
+}
 .list {
   width: 50%;
   padding: 50px 0;
   box-sizing: border-box;
 }
-.list.htmllist {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.list.csslist {
-  padding-right: 50px;
+.table-list {
+  margin: 0 auto;
 }
 
 .Online {
