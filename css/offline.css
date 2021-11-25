@@ -23,6 +23,7 @@ body {
 }
 .offline-contents-wrap .offline-contents {
   width: 1500px;
+  height: 1000px;
   background-color: #b5c7d8;
   border-radius: 20px;
   margin: 60px auto;
@@ -111,7 +112,7 @@ header:hover .menu-wrap {
 h1 {
   height: 150px;
   text-align: center;
-  color: midnightblue;
+  color: #213a5c;
   font-size: 60px;
   line-height: 150px;
   text-shadow: 5px 5px 5px #fff;
@@ -120,7 +121,7 @@ h1 {
 h2 {
   text-align: left;
   text-indent: 50px;
-  color: midnightblue;
+  color: #213a5c;
   font-size: 40px;
   line-height: 80px;
 }
@@ -141,7 +142,7 @@ p {
 }
 .date:hover,
 .offline-img-title:hover {
-  background-color: midnightblue;
+  background-color: #213a5c;
   color: white;
 }
 
