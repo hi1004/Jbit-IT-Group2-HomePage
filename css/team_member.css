@@ -132,6 +132,10 @@ header:hover .menu-wrap {
   font-size: 35px;
   line-height: 60px;
 }
+
+.profile-card .text .one {
+  font-size: 17px;
+}
 /* FOOTER */
 footer {
   width: 100%;
