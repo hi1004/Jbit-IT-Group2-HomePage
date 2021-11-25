@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/about.css" />
     <link rel="stylesheet" href="../css/team_member.css" />
-    <style></style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <div class="about-wrap">
@@ -52,20 +52,13 @@
             <!--Account 매뉴 영역 !-->
             <div class="nav-list">Account</div>
             <ul>
-              <!-- 나중에 매뉴명칭 영문으로 변경해야됨 !-->
-              <li class="Account_github sub-list">
-                <a
-                  href="https://github.com/hi1004/Jbit-IT-Group2-HomePage"
-                  target="_blank"
-                  >github</a
-                >
-              </li>
-              <li class="Account_slack sub-list">
-                <a
-                  href="https://app.slack.com/client/T0299KCJ7LM/C029JS1QYAG"
-                  target="_blank"
-                  >slack</a
-                >
+              <li class="sub-list" id="account-list">
+                <a href="https://github.com/hi1004/Jbit-IT-Group2-HomePage" target="_blank">
+                  <i class="fab fa-github link-icon"></i>
+                </a>
+                <a href="https://j-bit.slack.com" target="_blank">
+                  <i class="fab fa-slack link-icon"></i>
+                </a>
               </li>
               <li class="login sub-list">
                 <a href="#">signin</a>
@@ -74,7 +67,6 @@
           </ul>
         </nav>
       </header>
-
       <section class="images-wrap">
         <img src="../images/about01.jpg" alt="2조의 부원이 되어주세요" />
         <img src="../images/about02.jpg" alt="프로젝트 및 스터디" />
