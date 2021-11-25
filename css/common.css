@@ -1,16 +1,29 @@
 @import url(https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css);
+@font-face {
+  font-family: 'EliceDigitalBaeum_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/EliceDigitalBaeum_Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 a {
   text-decoration: none;
 }
+
 ul,
 li {
   list-style: none;
 }
+
 body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
   background-color: #fff;
   color: #333333;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'EliceDigitalBaeum_Bold';
+}
+
+.weight-900 {
+  font-weight: 900;
 }

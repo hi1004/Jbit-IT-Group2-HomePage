@@ -1,0 +1,177 @@
+main {
+  position: relative;
+}
+
+.main-background {
+  height: 100vh;
+  overflow: hidden;
+  /* background: radial-gradient(circle, rgb(9, 136, 214) 0%, #213a5c 100%); */
+  background: radial-gradient(#1d89e4, #0e47a1, #82b1ff, #1665c1, #1f7da8, #1665c1, #13aa70, #2ece99, #14b136);
+  background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 600% 400%;
+  animation: bg 30s infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bg {
+  0% {
+    background-position: 20% 100%;
+  }
+  50% {
+    background-position: 80% 100%;
+  }
+  100% {
+    background-position: 20% 100%;
+  }
+}
+.main-background .main-container {
+  width: 600px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.main-background .main-container .subtitle {
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 13px;
+  text-transform: uppercase;
+}
+
+.main-background .main-container .logo {
+  display: block;
+  margin: 0 auto;
+  outline: none;
+  /* margin-bottom: 10px; */
+  position: relative;
+}
+
+.main-background .main-container .united {
+  letter-spacing: 0;
+  font-size: 3rem;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+.main-background .main-container .title span {
+  color: #fff;
+}
+.main-background .main-container p {
+  /* 내용 길이에 맞춰서 폰트수정 */
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* ICON BTN */
+.main-background .main-container .btn-group {
+  width: 400px;
+  height: 100px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-background .main-container .btn-group .btn {
+  width: 80px;
+  height: 80px;
+  outline: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: #1665c1;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  position: relative;
+  box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.3);
+}
+.main-background .main-container .btn-group .btn .icon {
+  font-size: 3rem;
+  position: relative;
+  transition: 0.3s ease;
+}
+.main-background .main-container .btn-group .btn .text {
+  color: white;
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+
+.main-background .main-container .btn-group .btn:hover {
+  background-color: #1665c1;
+  color: #fff;
+  transform: scale(1.2);
+}
+.main-background .main-container .btn-group .btn:hover .icon {
+  transform: translateY(-0.3rem);
+}
+
+/* COPYRIGHT */
+footer .copyright {
+  position: absolute;
+  bottom: 45px;
+  right: 45px;
+  color: #fff;
+}
+.custom-shape-divider-top-1637585068 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1637585068 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1637585068 .shape-fill {
+  fill: #ffffff;
+}
+
+/* wave effect */
+#wavebox {
+  position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+.wave {
+  opacity: 0.4;
+  position: absolute;
+  top: -195vw;
+  width: 200vw;
+  height: 200vw;
+  border-radius: 48%;
+  background-color: #fff;
+}
+.wave.first {
+  left: -30vw;
+  animation: drift 10s infinite linear;
+}
+.wave.second {
+  left: -50vw;
+  animation: drift 15s infinite linear;
+}
+.wave.third {
+  left: -70vw;
+  animation: drift 8s infinite linear;
+  opacity: 0.1;
+  background: yellow;
+}
+
+@keyframes drift {
+  from {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
