@@ -15,6 +15,7 @@ header {
   color: blue;
   font-size: 100px;
   text-align: center;
+  text-shadow: white 10px 10px 10px;
 }
 
 .wrap {
@@ -33,6 +34,7 @@ table {
 h1 {
   color: blue;
   font-size: 50px;
+  font-weight: 30px;
 }
 
 tr {
@@ -62,7 +64,7 @@ th {
 
 .Online {
   color: blue;
-  font-size: 30px;
+  text-indent: 20px;
 }
 caption {
   font-size: 23px;
