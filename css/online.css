@@ -98,7 +98,6 @@ header:hover .menu-wrap {
 .sub-list.login {
   margin-top: 50px;
   text-align: center;
-  text-shadow: white 10px 10px 10px;
 }
 .sub-list.login a {
   color: #fff;
@@ -158,6 +157,7 @@ th {
   color: white;
   font-size: 20px;
 }
+
 .table-list a {
   text-decoration: none;
   color: black;
