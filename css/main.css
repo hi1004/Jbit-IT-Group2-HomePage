@@ -118,9 +118,14 @@ main {
 }
 
 /* COPYRIGHT */
-footer .copyright {
+#main-footer {
+  width: 100%;
+  height: auto;
   position: absolute;
-  bottom: 45px;
+}
+#main-footer .copyright {
+  position: absolute;
+  bottom: 0;
   right: 45px;
   color: #fff;
 }

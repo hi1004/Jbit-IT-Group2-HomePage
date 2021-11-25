@@ -112,7 +112,7 @@
 
 .signin-container .card form .form-menu li .bar::before,
 .signin-container .card form .form-menu li .bar::after {
-  content: '';
+  content: "";
   position: absolute;
   background: #213a5c;
   width: 0;
@@ -156,7 +156,7 @@
 }
 
 .signin-container .card form .btn-container .btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -255,7 +255,7 @@
 }
 
 /* COPYRIGHT */
-footer .copyright {
+#sigin-footer .copyright {
   position: absolute;
   bottom: 45px;
   right: 45px;
