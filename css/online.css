@@ -146,13 +146,12 @@ tr {
   border: 2px solid;
 }
 td {
-  border: 1px solid pink;
   padding: 20px;
   font-style: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 td p {
-  font-size: 20px;
+  font-size: 0.9em;
 }
 th {
   background-color: #213a5c;
@@ -165,6 +164,7 @@ th {
 }
 .days {
   vertical-align: middle;
+  text-align: center;
 }
 .list {
   width: 50%;
@@ -191,12 +191,13 @@ caption a {
   display: inline-block;
 }
 caption a img {
-  width: 30px;
+  width: 50px;
   display: block;
 }
 .wrap-table {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 10em;
 }
 
 /* FOOTER */
