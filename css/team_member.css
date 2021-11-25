@@ -97,8 +97,36 @@ header:hover .menu-wrap {
 
 .profile-wrap {
   background-color: #21395b;
-  height: 800px;
+  height: 1200px;
   width: calc(100% - 200px);
+  display: flex;
+}
+.profile-card .member1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+.profile-card .member2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.text {
+  margin-left: 540px;
+  margin-top: 15px;
+  color: #fff;
+}
+.text .task {
+  margin-left: 30px;
+}
+.text .name {
+  font-size: 30px;
+  margin-left: 18px;
 }
 
 /* FOOTER */
