@@ -10,7 +10,6 @@
   box-shadow: border-box;
 }
 body {
-  font-family: "Noto Sans KR", sans-serif;
   background-color: #213a5c;
 }
 .offline-wrap {
@@ -42,6 +41,7 @@ h1 {
   text-align: center;
   color: #213a5c;
   font-size: 60px;
+  font-family: arial, helvetica, sans-serif;
   /* line-height: 150px; */
   font-weight: bold;
   text-shadow: 5px 5px 10px rgbA(33, 58, 92, 0.5);
@@ -56,6 +56,7 @@ h2 {
 }
 
 p {
+  font-family: "Noto Sans KR", sans-serif;
   font-weight: 700;
   text-align: center;
   line-height: 30px;
@@ -64,6 +65,7 @@ p {
 .sub-contend {
   text-align: left;
   text-indent: 30px;
+  font-family: "Noto Sans KR", sans-serif;
 }
 .offline-img-title {
   background-color: #213a5c;
