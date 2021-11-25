@@ -23,7 +23,6 @@ body {
 }
 .offline-contents-wrap .offline-contents {
   width: 1500px;
-  height: 1000px;
   background-color: #b5c7d8;
   border-radius: 20px;
   margin: 60px auto;
@@ -177,6 +176,7 @@ p {
 }
 
 .offline-1st {
+  height: 600px;
   display: flex;
   justify-content: space-around;
 }
