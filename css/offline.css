@@ -134,15 +134,18 @@ p {
   text-align: left;
   text-indent: 30px;
 }
-
 .date,
+.offline-img-title {
+  background-color: #213a5c;
+  color: white;
+}
+
 .offline-img-title {
   font-size: 20px;
 }
-.date:hover,
-.offline-img-title:hover {
-  background-color: #213a5c;
-  color: white;
+
+.date {
+  font-size: 15px;
 }
 
 .scale {
