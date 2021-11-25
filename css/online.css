@@ -26,6 +26,7 @@ body {
   background-color: #b5c7d8;
   border-radius: 20px;
   margin: 60px auto;
+  padding: 20px 0;
 }
 
 /* HEADER */
@@ -122,10 +123,12 @@ header:hover .menu-wrap {
 h1 {
   height: 150px;
   text-align: center;
-  color: midnightblue;
+  color: #213a5c;
   font-size: 60px;
-  line-height: 150px;
-  text-shadow: 5px 5px 5px #fff;
+  /* line-height: 150px; */
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgbA(33, 58, 92, 0.5);
 }
 h2 {
   text-align: left;
