@@ -102,31 +102,47 @@ header:hover .menu-wrap {
   display: flex;
 }
 .profile-card .member1 {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   margin-left: 500px;
   margin-top: 50px;
 }
 
 .profile-card .member2 {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  margin-left: 300px;
+  margin-left: 180px;
   margin-top: 50px;
 }
-.text {
-  margin-left: 540px;
-  margin-top: 15px;
+.text1 {
+  margin-left: 580px;
+  margin-top: 0.8px;
   color: #fff;
 }
-.text .task {
+.text1 .task {
   margin-left: 30px;
 }
-.text .name {
+.text1 .name {
   font-size: 30px;
   margin-left: 18px;
+}
+
+.text2 {
+  margin-left: 250px;
+  margin-top: 0.2px;
+  color: #fff;
+}
+.text2 .task {
+  margin-left: 50px;
+}
+.text2 .name {
+  font-size: 40px;
+  margin-left: 40px;
+}
+.text2 .one {
+  font-size: 25px;
 }
 
 /* FOOTER */
