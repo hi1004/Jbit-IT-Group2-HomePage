@@ -27,7 +27,6 @@ body {
   margin-bottom: 100px;
   display: flex;
   flex-direction: column;
-  /* align-content: center; */
   justify-content: center;
   align-items: center;
 }
@@ -36,8 +35,17 @@ body {
   width: 1500px;
   background: linear-gradient(45deg, #b5c7d8, #eee, #b5c7d8);
   border-radius: 20px;
-  /* margin: 45px auto; */
   padding: 20px 0;
+  position: relative;
+}
+.about-contents .about-title {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 3rem;
+  top: 0;
+  margin-left: 20px;
 }
 
 .profile-wrap {
@@ -57,6 +65,9 @@ body {
   background-color: #b5c7d8;
   box-shadow: #b5c7d8 0px 0px 5px;
   transition: 0.3s;
+}
+.profile-card.leader {
+  background-color: #84acd1;
 }
 .profile-card:hover {
   transform: scale(1.1);
@@ -80,4 +91,11 @@ body {
 
 .profile-card .text .one {
   font-size: 16px;
+}
+
+h1 {
+  height: 150px;
+  color: #213a5c;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgbA(33, 58, 92, 0.5);
 }
