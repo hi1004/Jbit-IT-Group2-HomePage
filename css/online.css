@@ -150,6 +150,9 @@ thead tr {
 tr {
   border-bottom: 1px solid lightgray;
 }
+tr:last-child {
+  border-bottom: none;
+}
 td {
   padding: 20px;
   font-style: bold;
