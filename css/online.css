@@ -15,6 +15,7 @@ body {
 .online-wrap {
   position: relative;
   overflow: hidden;
+  background: radial-gradient(circle, rgba(163, 181, 192, 1) 0%, #213a5c 100%);
 }
 .online-contents-wrap {
   width: calc(100% - 200px);
@@ -23,7 +24,7 @@ body {
 }
 .online-contents-wrap .online-contents {
   width: 1500px;
-  background-color: #b5c7d8;
+  background: linear-gradient(45deg, #b5c7d8, #eee, #b5c7d8);
   border-radius: 20px;
   margin: 60px auto;
   padding: 20px 0;
@@ -141,8 +142,8 @@ h2 {
 table {
   width: 600px;
   line-height: 40px;
-  background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 0px 10px #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 10px rgba(200, 200, 200, 1);
 }
 thead tr {
   border: none;
