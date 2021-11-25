@@ -19,19 +19,3 @@
 .images-wrap img:last-child {
   margin-bottom: 100px;
 }
-
-/* FOOTER */
-footer {
-  width: 100%;
-  background-color: #0e2038;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-footer .copyright {
-  text-align: center;
-  line-height: 100px;
-  height: 100px;
-  color: rgba(216, 215, 215, 0.596);
-}

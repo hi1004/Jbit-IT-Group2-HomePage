@@ -7,6 +7,7 @@
 }
 
 body {
+  background-color: #21395b;
   font-family: "EliceDigitalBaeum_Bold";
 }
 
@@ -16,12 +17,25 @@ body {
 
 .about-wrap {
   position: relative;
-  background-color: #21395b;
+  overflow: hidden;
+  background: radial-gradient(circle, rgba(163, 181, 192, 1) 0%, #213a5c 100%);
+}
+.about-contents {
+  width: 1500px;
+  background: linear-gradient(45deg, #b5c7d8, #eee, #b5c7d8);
+  /* background-color: #b5c7d8; */
+  border-radius: 20px;
+  margin: 60px auto;
+  padding: 20px 0;
+}
+.about-contents-wrap {
+  width: calc(100% - 200px);
+  float: right;
+  margin-bottom: 100px;
 }
 
 .profile-wrap {
-  margin-left: 200px;
-  background-color: #21395b;
+  margin: 0 auto;
   height: 500px;
   width: calc(100% - 200px);
   display: flex;
@@ -64,19 +78,4 @@ body {
 
 .profile-card .text .one {
   font-size: 15px;
-}
-/* FOOTER */
-footer {
-  width: 100%;
-  background-color: #0e2038;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-footer .copyright {
-  text-align: center;
-  line-height: 100px;
-  height: 100px;
-  color: rgba(216, 215, 215, 0.596);
 }

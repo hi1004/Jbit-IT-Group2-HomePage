@@ -133,20 +133,3 @@ caption a img {
   justify-content: space-around;
   padding-bottom: 10em;
 }
-
-/* FOOTER */
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: #0e2038;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-footer .copyright {
-  text-align: center;
-  line-height: 100px;
-  height: 100px;
-  color: rgba(216, 215, 215, 0.596);
-}

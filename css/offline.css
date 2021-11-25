@@ -5,11 +5,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
 * {
   box-shadow: border-box;
 }
 body {
-  font-family: "EliceDigitalBaeum_Bold";
+  font-family: "Noto Sans KR", sans-serif;
   background-color: #213a5c;
 }
 .offline-wrap {
@@ -42,7 +43,6 @@ h1 {
   color: #213a5c;
   font-size: 60px;
   /* line-height: 150px; */
-  font-family: arial, helvetica, sans-serif;
   font-weight: bold;
   text-shadow: 5px 5px 10px rgbA(33, 58, 92, 0.5);
 }
@@ -56,6 +56,7 @@ h2 {
 }
 
 p {
+  font-weight: 700;
   text-align: center;
   line-height: 30px;
 }
@@ -64,13 +65,13 @@ p {
   text-align: left;
   text-indent: 30px;
 }
-.date,
 .offline-img-title {
   background-color: #213a5c;
   color: white;
 }
 
 .offline-img-title {
+  font-family: "EliceDigitalBaeum_Bold";
   font-size: 20px;
 }
 
@@ -84,20 +85,19 @@ p {
 }
 .scale:hover {
   transform: scale(1.2);
-
   box-shadow: 5px 5px 5px #ccc;
 }
 
 .offline-contents-wrap img {
   width: 320px;
   height: 180px;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .offline-img {
   width: 320px;
   height: 180px;
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
