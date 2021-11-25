@@ -140,13 +140,15 @@ h2 {
 
 table {
   width: 600px;
-  border: 1px solid;
   line-height: 40px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 0px 10px #fff;
 }
-
+thead tr {
+  border: none;
+}
 tr {
-  border-bottom: 2px solid;
+  border-bottom: 1px solid lightgray;
 }
 td {
   padding: 20px;
@@ -158,6 +160,7 @@ td p {
 }
 th {
   background-color: #213a5c;
+  box-shadow: 0px 0px 10px #213a5c;
   color: white;
   font-size: 20px;
 }
