@@ -98,7 +98,7 @@ header:hover .menu-wrap {
 .profile-wrap {
   margin-left: 200px;
   background-color: #21395b;
-  height: 700px;
+  height: 500px;
   width: calc(100% - 200px);
   display: flex;
   flex-direction: row;
@@ -109,24 +109,24 @@ header:hover .menu-wrap {
   align-items: flex-start;
 }
 .profile-card {
-  border: 1px solid white;
   border-radius: 10px;
-  width: 300px;
-  height: 400px;
+  width: 250px;
+  height: 370px;
   background-color: #b5c7d8;
+  box-shadow: #b5c7d8 0px 0px 5px;
 }
 .profile-card img {
   display: block;
   margin: 0 auto;
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
 }
 .profile-card .text {
   text-align: center;
   font-size: 20px;
 }
-.profile-card .text .tesk {
-  color: #0e2038;
+.profile-card .text .task {
+  color: #21395b;
 }
 .profile-card .text .name {
   font-size: 35px;
@@ -134,7 +134,7 @@ header:hover .menu-wrap {
 }
 
 .profile-card .text .one {
-  font-size: 17px;
+  font-size: 15px;
 }
 /* FOOTER */
 footer {
