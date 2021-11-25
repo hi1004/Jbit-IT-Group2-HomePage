@@ -184,6 +184,13 @@ p {
   justify-content: space-around;
 }
 
+.offline-day-wrap {
+  padding: 30px;
+  height: 500px;
+  background-color: rgba(255, 255, 255);
+  border-radius: 30px;
+}
+
 /* FOOTER */
 footer {
   width: 100%;
