@@ -82,6 +82,14 @@ td {
   font-style: bold;
   font-size: 1.3em;
 }
+td a h6:hover {
+  color: white;
+  background-color: #213a5c;
+}
+td a p:hover {
+  color: white;
+  background-color: #b5c7d8;
+}
 td p {
   font-size: 0.9em;
 }
