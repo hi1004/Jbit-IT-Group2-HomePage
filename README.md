@@ -1,9 +1,7 @@
 <a href="https://hi1004.github.io/Jbit-IT-Group2-HomePage/" target="_blank">DEMO</a>
 
-# <img src="https://hi1004.github.io/Jbit-IT-Group2-HomePage/favicon.ico" style="width:25px" /> Jbit-IT-Group2-HomePage
+# <img src="https://hi1004.github.io/Jbit-IT-Group2-HomePage/favicon.ico" /> Jbit-IT-Group2-HomePage
 ![image](https://user-images.githubusercontent.com/80688093/170961252-da901de7-6d36-4629-8ef3-88c516950e5f.png)
-
-![screenshot](./src/assets/readme/screenshot.png)
 
 ## 概要
 - 当時、ITサークルの部員募集を効率的にするため、３人で作ったチームプロジェクト。<br/>
