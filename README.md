@@ -24,6 +24,7 @@
 - モチベーションアップ
 - チームワークの大切さ
 - 成功的なプロジェクト発表会
+
 ## 期間
 2021年11月18日~11月26日（1週間）
 
@@ -46,6 +47,9 @@ javaScriptで実装したのはログインページ。ログイン機能はな�
 branchは`Main` `About` `Activites` `Signin`に分けて最終的に`master`branchに`marge`した。
 
 ## 役割
+
+![image](https://user-images.githubusercontent.com/80688093/170970916-fe71e353-d191-45b6-9521-1659f40223de.png)
+
 名前 | 役割 | サークル職位
 --|:--:|--:
 <span style="color:#fdc000">오병헌(オ・ビョンホン)</span>|<span style="color:#fdc000">総括・責任者</sapn>| <span style="color:#fdc000">副会長</span>
