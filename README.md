@@ -52,9 +52,12 @@ branchは`Main` `About` `Activites` `Signin`に分けて最終的に`master`bran
 
 名前 | 役割 | サークル職位
 --|:--:|--:
-<span style="color:#fdc000">오병헌(オ・ビョンホン)</span>|<span style="color:#fdc000">総括・責任者</sapn>| <span style="color:#fdc000">副会長</span>
-김동훈(キム・ドンフン) | 責任者と全般的な総括 | ２グループサブリーダー
-표예원(ピョ・イェウォン) | デザイン・映像 | 広報部長
+<span style="color:#fdc000">오병헌(オ・ビョンホン)</span>|<span style="color:#fdc000">総括・責任者(master,main,login担当)</sapn>| <span style="color:#fdc000">副会長</span>
+김동훈(キム・ドンフン) | 責任者と全般的な総括(master,main担当) | ２グループサブリーダー
+최주현(チェ・ジュヒョン) | デザイン・企画・実装（About担当) | 新入部員
+심세웅(シム・セウン) | デザイン・企画・実装（About担当) | 新入部員
+조성식(チョ・ソンシク) | デザイン・企画・実装（Activites担当) | 新入部員
+정수연(チョン・スヨン) | デザイン・企画・実装（Activites担当) | 新入部員
 
 ## 成果
 - 15人の新入部員が募集に成功した。
