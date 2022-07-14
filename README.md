@@ -2,7 +2,7 @@
 
 > 大学 IT サークルの 2 グループホームページ
 >
-> [DEMO](https://bit.ly/3NM3RN6);
+> [DEMO](https://bit.ly/3NM3RN6)
 
 </br>
 
